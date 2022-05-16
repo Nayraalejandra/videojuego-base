@@ -58,3 +58,14 @@ body{
     width: 40%;
     height: 220px;
 }
+
+
+/* Menu */
+#menu{
+    position: absolute;
+    height: 5%;
+    width: 2%;
+    margin-right: 3%;
+    margin-top: 2%;
+    right: 0;
+}
