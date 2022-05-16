@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+#fondo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.nubes{
+    position: absolute;
+    height: 170px;
+}
+#nube1{
+    left:20%;
+    top: 8%;
+}
+#nube2{
+    left:60%;
+    top: 20%;
+}
+#cesped{
+    position: absolute;
+    height: 20%;
+    left: 0;
+    bottom: 0;
+}
+
+#cesped1{
+    position: absolute;
+    height: 20%;
+    right: 0;
+    bottom: 0;
+}
+#cesped2{
+    position: absolute;
+    height: 20%;
+    left: 600px;
+    bottom: 0;
+    width: 40%;
+    height: 220px;
+}
+#cesped3{
+    position: absolute;
+    height: 20%;
+    left: 50px;
+    bottom: 0;
+    width: 40%;
+    height: 220px;
+}
+#cesped4{
+    position: absolute;
+    height: 20%;
+    right: 50px;
+    bottom: 0;
+    width: 40%;
+    height: 220px;
+}
