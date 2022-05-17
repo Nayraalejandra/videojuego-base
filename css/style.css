@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     min-width: 100%;
@@ -5,6 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 #fondo{
     position: absolute;
@@ -43,6 +45,7 @@ body{
     bottom: 0;
     width: 40%;
     height: 300px;
+    z-index: 1;
 }
 #cesped3{
     position: absolute;
@@ -51,6 +54,8 @@ body{
     bottom: 0;
     width: 40%;
     height: 220px;
+    z-index: 2;
+
 }
 #cesped4{
     position: absolute;
@@ -59,6 +64,7 @@ body{
     bottom: 0;
     width: 40%;
     height: 220px;
+    z-index: 3;
 }
 
 
@@ -80,4 +86,47 @@ body{
     background-color: aquamarine;
 
 
+}
+
+/* vida */
+#vida{
+    position: absolute;
+    height: 51px;
+    margin-right: 13%;
+    margin-top: 2%;
+    right: 0;
+    top: 0;
+    
+    overflow: hidden;
+}
+
+#vida img{
+    height: 200px;
+}
+
+/* Personajes */
+#conejoAzul{
+    animation: 3s infinite alternate conejoazul;
+
+}
+
+.conejosBox{
+    position: absolute;
+    overflow: hidden;
+    height: 300px;
+    
+}
+
+#conejoAzul img{
+    height: 900px;
+}
+
+
+@keyframes conejoazul{
+    from{
+        bottom: -100px;
+    }
+    to{
+        bottom: 250px;
+    }
 }
