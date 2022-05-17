@@ -81,12 +81,27 @@ body{
 #interiorMenu{
     position: absolute;
     display: none;
+    /* visibility: hidden; */
     height: 60vh;
-    width: 60%;
-    background-color: aquamarine;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
     z-index: 2;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    flex-direction: row;
+
+    padding-bottom: 80px;
+    
 
 }
+
+.botonMenu{
+    height: 15%;
+    margin: 50px;
+}
+
+
 
 /* vida */
 #vida{

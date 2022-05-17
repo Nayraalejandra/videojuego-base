@@ -5,7 +5,8 @@ let conejodie = false;
 
 function abrirMenu(){
     if(menuAbierto == false) {
-        $("#interiorMenu").css("display","block")
+        $("#interiorMenu").css("display","flex")
+    
             menuAbierto =true
     }else{
         $("#interiorMenu").css("display","none")
