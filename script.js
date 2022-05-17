@@ -13,19 +13,33 @@ function abrirMenu(){
             menuAbierto = false;
     }
 }
-
+// $("#interiorMenu").css("transition", "2s")
 $("#menu").click(abrirMenu)
 
-function conejoMuerto(){
+function conejoAzulMuerto(){
     if(conejodie == false) {
-        $(".conejosImg").css("margin-top","-300px");
+        $("#conejoAzul Img").css("margin-top","-300px");
         console.log("uyu");
         conejodie = true;
     }else{
-        $(".conejosImg").css("margin-top","00px")
+        $("#conejoAzul Img").css("margin-top","0px")
         console.log("eye")
             conejodie = false;
     }
 }
 
-$(".conejosImg").click(conejoMuerto)
+$("#conejoAzul Img").click(conejoAzulMuerto)
+
+function conejoRosaMuerto(){
+    if(conejodie == false) {
+        $("#conejoRosa Img").css("margin-top","-300px");
+        console.log("uyu");
+        conejodie = true;
+    }else{
+        $("#conejoRosa Img").css("margin-top","0px")
+        console.log("eye")
+            conejodie = false;
+    }
+}
+
+$("#conejoRosa Img").click(conejoRosaMuerto)

@@ -41,7 +41,7 @@ body{
 }
 #cesped2{
     position: absolute;
-    left: 700px;
+    left: 600px;
     bottom: 0;
     width: 40%;
     height: 300px;
@@ -54,7 +54,7 @@ body{
     bottom: 0;
     width: 40%;
     height: 220px;
-    z-index: 3;
+    z-index: 2;
 
 }
 #cesped4{
@@ -64,7 +64,7 @@ body{
     bottom: 0;
     width: 40%;
     height: 220px;
-    z-index: 4;
+    z-index: 3;
 }
 
 
@@ -76,6 +76,7 @@ body{
     margin-top: 2%;
     right: 0;
     top: 4px;
+    
 }
 
 #interiorMenu{
@@ -85,7 +86,7 @@ body{
     height: 60vh;
     width: 70%;
     background-color: rgb(0, 0, 0);
-    z-index: 2;
+    z-index: 4;
     justify-content: center;
     align-items: flex-end;
     overflow: hidden;
@@ -101,6 +102,9 @@ body{
     margin: 50px;
 }
 
+#botonFin{
+    transition: all 1s;
+}
 
 
 /* vida */
@@ -121,7 +125,7 @@ body{
 
 /* Personajes */
 #conejoAzul{
-    animation: 3s infinite alternate conejoazul;
+    animation: 3s infinite alternate ease conejoazul;
 
 }
 
@@ -136,6 +140,30 @@ body{
     height: 900px;
 }
 
+#conejoRosa{
+    left: 580px;
+    animation: 3s infinite alternate ease conejoRosa;
+    animation-delay: 3s;
+    bottom: -300px;
+    z-index: 1;
+}
+
+#conejoRosa img{
+    height: 900px;
+}
+
+#conejoNaranja{
+    right: 580px;
+    animation: 3s infinite alternate ease conejoRosa;
+    animation-delay: 5s;
+    bottom: -300px;
+    z-index: 1;
+}
+
+#conejoNaranja img{
+    height: 900px;
+}
+
 
 @keyframes conejoazul{
     from{
@@ -143,5 +171,14 @@ body{
     }
     to{
         bottom: 250px;
+    }
+}
+
+@keyframes conejoRosa{
+    from{
+        bottom: -300px;
+    }
+    to{
+        bottom: 100px;
     }
 }
