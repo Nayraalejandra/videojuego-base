@@ -1,6 +1,5 @@
 
 let menuAbierto = false;
-let conejodie = false;
 
 
 function abrirMenu(){
@@ -16,30 +15,37 @@ function abrirMenu(){
 // $("#interiorMenu").css("transition", "2s")
 $("#menu").click(abrirMenu)
 
-function conejoAzulMuerto(){
-    if(conejodie == false) {
-        $("#conejoAzul Img").css("margin-top","-300px");
-        console.log("uyu");
-        conejodie = true;
-    }else{
-        $("#conejoAzul Img").css("margin-top","0px")
-        console.log("eye")
-            conejodie = false;
-    }
+function revivirAzul(){
+    $("#conejoAzul Img").css("margin-top","0px")
 }
 
-$("#conejoAzul Img").click(conejoAzulMuerto)
+function matarAzul (){
+    $("#conejoAzul Img").css("margin-top","-300px");
+    setTimeout(revivirAzul,3000)
+}
+$("#conejoAzul Img").click(matarAzul);
 
-function conejoRosaMuerto(){
-    if(conejodie == false) {
-        $("#conejoRosa Img").css("margin-top","-300px");
-        console.log("uyu");
-        conejodie = true;
-    }else{
-        $("#conejoRosa Img").css("margin-top","0px")
-        console.log("eye")
-            conejodie = false;
-    }
+
+
+function revivir(){
+    $("#conejoRosa Img").css("margin-top","0px")
 }
 
-$("#conejoRosa Img").click(conejoRosaMuerto)
+function matar (){
+    $("#conejoRosa Img").css("margin-top","-300px");
+    setTimeout(revivir,3000)
+}
+$("#conejoRosa Img").click(matar);
+
+
+
+
+function revivirNaranja(){
+    $("#conejoNaranja Img").css("margin-top","0px")
+}
+
+function matarNaranja (){
+    $("#conejoNaranja Img").css("margin-top","-300px");
+    setTimeout(revivirNaranja,3000)
+}
+$("#conejoNaranja Img").click(matarNaranja);
