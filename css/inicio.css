@@ -1,0 +1,10 @@
+body{
+   min-height: 100vh;
+   min-width: 100%;
+   margin: 0;
+   overflow: hidden;
+}
+#fondo{
+    width: 100%;
+    height: 100%;
+}
