@@ -90,7 +90,13 @@ let vida=3;
         
     }
 
+    // function parpadeo{
+    //     $("#conejoNegro Img").css("margin-top","-300px");
+    // }
+
+
     $("#conejoNegro").click(restarVida);
+    $("#conejoNegro").click(parpadeo);
 
 
 
