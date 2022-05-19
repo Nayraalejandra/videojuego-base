@@ -33,7 +33,7 @@ let vida=3;
     }
 
 
-        document.addEventListener('keyup' ,teclaPulsada)
+    document.addEventListener('keyup' ,teclaPulsada)
 
 // Azul
     function revivirAzul(){

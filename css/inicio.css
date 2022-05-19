@@ -3,8 +3,19 @@ body{
    min-width: 100%;
    margin: 0;
    overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family:fantasy;
+
 }
 #fondo{
     width: 100%;
     height: 100%;
+}
+#titulo{
+    position: absolute;
+    top: 150px;
+    font-size: 90px;
+    text-shadow: -2px -2px white;
 }
