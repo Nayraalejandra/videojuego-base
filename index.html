@@ -4,15 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <title>BONNIE</title>
 </head>
 <body>
     <p id="titulo">Evil rabbit</p>
     <img id="fondo" src="img/inicio.png" alt="">
 
+    <img  id="boton" src="img/button_start.gif" alt="">
     
+
+    <div id="box">
+
+        <h3 id="saludo">¡HOLA!</h3>
+
+        <input id="askName" type="text" placeholder="Pon tu nombre">
+
+        <fieldset id="pregunta">
+            <legend>¿Tienes ganas de jugar esta demo?</legend>
+            <input type="radio" name="radio-1" id="radio-1">
+            <label for="radio-1">Vamos!</label>
+            <input type="radio" name="radio-1" id="radio-2">
+            <label for="radio-2">En verdad paso</label>
+        
+        </fieldset>
+    </div>
+   
+
+
     
+
+   
+
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script src="JS/scriptInicio.js"></script>

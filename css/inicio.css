@@ -15,7 +15,55 @@ body{
 }
 #titulo{
     position: absolute;
-    top: 150px;
+    top: 20px;
     font-size: 90px;
     text-shadow: -2px -2px white;
 }
+
+
+#boton {
+    position: absolute;
+    bottom: 150px;
+    height: 8vh;
+}
+
+#box{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 300px;
+    height: 400px;
+    width: 430px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 10px;
+}
+
+
+#askName{
+    text-align: center;
+    position: absolute;
+    height: 40px;
+    width: 90%;
+    top: 150px;
+    border-radius: 5px;
+}
+
+#pregunta{
+    top: 250px;
+    position: absolute;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+#saludo{
+    position: absolute;
+    top: 2px;
+   font-size: 40px;
+}
+
