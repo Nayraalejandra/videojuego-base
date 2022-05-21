@@ -103,9 +103,13 @@ body{
 }
 
 #botonFin{
-    transition: all 1s;
+    /* transition: all 1s; */
+    margin: 50px;
 }
 
+#botonFin img{
+    height: 108%;
+}
 
 /* vida */
 #vida{
