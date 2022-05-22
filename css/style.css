@@ -75,10 +75,8 @@ body{
 #menu{
     position: absolute;
     height: 6vh;
-    margin-right: 4%;
-    margin-top: 2%;
-    right: 0;
-    top: 4px;
+    right: 100px;
+    top: 60px;
     
 }
 
@@ -126,10 +124,8 @@ body{
 #vida{
     position: absolute;
     height: 51px;
-    margin-right: 12%;
-    margin-top: 3%;
-    right: 0;
-    top: 0;
+    right: 200px;
+    top: 60px;
     
     overflow: hidden;
 }
@@ -221,6 +217,49 @@ body{
 #botonFin2 img{
     height: 120px;
 }
+
+#counterDiv{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    right: 400px;
+}
+
+#contadorTiempo{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    right: 500px;
+}
+
+#finalBueno{
+    position: absolute;
+    background-color: rgb(107, 112, 155);
+    height: 90vh;
+    width: 90%;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    flex-direction: row;
+    display: none;
+    
+}
+
+
 
 @keyframes nube1{
     from{

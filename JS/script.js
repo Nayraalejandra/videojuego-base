@@ -2,6 +2,8 @@
 let menuAbierto = false;
 let menuFin = false;
 let vida=3;
+let counter=  0;
+let time = 60;
 
 
 // Menu
@@ -43,7 +45,9 @@ let vida=3;
 
     function matarAzul (){
         $("#conejoAzul Img").css("margin-top","-300px");
-        setTimeout(revivirAzul,3000)
+        setTimeout(revivirAzul,4000)
+        counter++;
+        $("#counter").text(counter);
     }
     $("#conejoAzul Img").click(matarAzul);
 
@@ -55,7 +59,9 @@ let vida=3;
 
     function matar (){
         $("#conejoRosa Img").css("margin-top","-300px");
-        setTimeout(revivir,3000)
+        setTimeout(revivir,3000);
+        counter++;
+        $("#counter").text(counter);
     }
     $("#conejoRosa Img").click(matar);
 
@@ -68,7 +74,9 @@ let vida=3;
 
     function matarNaranja (){
         $("#conejoNaranja Img").css("margin-top","-300px");
-        setTimeout(revivirNaranja,3000)
+        setTimeout(revivirNaranja,3000);
+        counter++;
+        $("#counter").text(counter);
     }
     $("#conejoNaranja Img").click(matarNaranja);
 
@@ -93,7 +101,19 @@ let vida=3;
     $("#conejoNegro").click(restarVida);
 
 
-    
+    function finTiempo(){
+        $("#finalBueno").css("display","flex")
+    }
+
+    setTimeout(finTiempo,60000)
+
+
+    function myTimer() {
+        time--;
+        $("#tiempo").text(time);
+    }
+
+    setInterval(myTimer, 1000);
 
 
 
