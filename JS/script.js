@@ -1,5 +1,6 @@
 
 let menuAbierto = false;
+let menuFin = false;
 let vida=3;
 
 
@@ -86,6 +87,7 @@ let vida=3;
             console.log("abfa")
             $("#vida img").css("margin-top","-150px");
             vida=0
+            $("#final").delay(800).css("display","flex")
         }
         
     }
@@ -94,9 +96,10 @@ let vida=3;
     //     $("#conejoNegro Img").css("margin-top","-300px");
     // }
 
-
     $("#conejoNegro").click(restarVida);
     $("#conejoNegro").click(parpadeo);
+
+    
 
 
 
