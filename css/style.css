@@ -22,10 +22,12 @@ body{
 #nube1{
     left:20%;
     top: 8%;
+    animation: 5s infinite alternate linear nube1;
 }
 #nube2{
     left:60%;
     top: 20%;
+    animation: 3s infinite alternate linear nube2;
 }
 #cesped{
     position: absolute;
@@ -95,6 +97,16 @@ body{
     
 
 }
+
+#letrasMenu{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    top: 50px;
+
+}
+
 
 .botonMenu{
     height: 15%;
@@ -178,6 +190,7 @@ body{
     height: 900px;
     margin-top: -600px;
     
+    
 
 }
 
@@ -209,6 +222,28 @@ body{
     height: 120px;
 }
 
+@keyframes nube1{
+    from{
+        top:100px;
+    }
+    to{
+        top: 300px;
+    }
+}
+
+@keyframes nube2{
+    from{
+        top:150px;
+        
+    }
+    to{
+        top: 290px;
+    }
+}
+
+
+
+
 
 @keyframes conejoazul{
     from{
@@ -236,3 +271,4 @@ body{
         bottom: 160px;
     }
 }
+

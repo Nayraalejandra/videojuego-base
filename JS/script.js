@@ -8,7 +8,7 @@ let vida=3;
     function abrirMenu(){
         if(menuAbierto == false) {
             $("#interiorMenu").css("display","flex")
-        
+            $("#body").stop(true)
                 menuAbierto =true
         }else{
             $("#interiorMenu").css("display","none")
@@ -76,28 +76,22 @@ let vida=3;
 
     function restarVida(){
         if(vida == 3){
-            console.log("aaaa")
             $("#vida img").css("margin-top","-50px");
+            
             vida=2
         }else if(vida == 2){
-            console.log("eye")
             $("#vida img").css("margin-top","-100px");
             vida=1
         }else{
-            console.log("abfa")
             $("#vida img").css("margin-top","-150px");
             vida=0
-            $("#final").delay(800).css("display","flex")
+            $("#final").css("display","flex")
         }
         
     }
 
-    // function parpadeo{
-    //     $("#conejoNegro Img").css("margin-top","-300px");
-    // }
-
     $("#conejoNegro").click(restarVida);
-    $("#conejoNegro").click(parpadeo);
+
 
     
 
