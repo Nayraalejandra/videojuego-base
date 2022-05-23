@@ -281,6 +281,11 @@ body{
     }
 
 
+    #sonido{
+        opacity: 0;
+    }
+
+
 /* Animaciones */
     @keyframes nube1{
         from{

@@ -118,4 +118,7 @@ body{
         cursor: pointer;
     }
 
+    #sonido{
+        opacity: 0;
+    }
 
