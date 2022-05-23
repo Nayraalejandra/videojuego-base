@@ -19,6 +19,13 @@ let time = 60;
     
         $("#menu").click(abrirMenu)
 
+        $("#volver").click(function(){
+            $("#interiorMenu").css("display","none")
+                menuAbierto = false;
+        }
+
+        )
+
     function teclaPulsada(e){
         console.log(e.code)
 
