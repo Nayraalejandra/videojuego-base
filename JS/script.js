@@ -99,7 +99,7 @@ let time = 60;
 
     $("#conejoNegro").click(restarVida);
 
-
+// Fin Tiempo
     function finTiempo(){
         $("#finalBueno").css("display","flex");
         $("#puntuacion").text("¡Has conseguido " + $(".puntos").text() + " puntos!")

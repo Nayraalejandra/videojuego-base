@@ -9,319 +9,322 @@ body{
     overflow: hidden;
     font-family:fantasy;
 }
-#fondo{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    
-}
-.nubes{
-    position: absolute;
-    height: 170px;
-}
-#nube1{
-    left:20%;
-    top: 8%;
-    animation: 5s infinite alternate linear nube1;
-}
-#nube2{
-    left:60%;
-    top: 20%;
-    animation: 3s infinite alternate linear nube2;
-}
-#cesped{
-    position: absolute;
-    height: 20%;
-    left: 0;
-    bottom: 0;
-}
+/* Entorno */
+    #fondo{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .nubes{
+        position: absolute;
+        height: 170px;
+    }
+    #nube1{
+        left:20%;
+        top: 8%;
+        animation: 5s infinite alternate linear nube1;
+    }
+    #nube2{
+        left:60%;
+        top: 20%;
+        animation: 3s infinite alternate linear nube2;
+    }
+    #cesped{
+        position: absolute;
+        height: 20%;
+        left: 0;
+        bottom: 0;
+    }
 
-#cesped1{
-    position: absolute;
-    height: 20%;
-    right: 0;
-    bottom: 0;
-}
-#cesped2{
-    position: absolute;
-    left: 600px;
-    bottom: 0;
-    width: 40%;
-    height: 300px;
-    z-index: 1;
-}
-#cesped3{
-    position: absolute;
-    height: 20%;
-    left: 50px;
-    bottom: 0;
-    width: 40%;
-    height: 220px;
-    z-index: 2;
+    #cesped1{
+        position: absolute;
+        height: 20%;
+        right: 0;
+        bottom: 0;
+    }
+    #cesped2{
+        position: absolute;
+        left: 600px;
+        bottom: 0;
+        width: 40%;
+        height: 300px;
+        z-index: 1;
+    }
+    #cesped3{
+        position: absolute;
+        height: 20%;
+        left: 50px;
+        bottom: 0;
+        width: 40%;
+        height: 220px;
+        z-index: 2;
 
-}
-#cesped4{
-    position: absolute;
-    height: 20%;
-    right: 50px;
-    bottom: 0;
-    width: 40%;
-    height: 220px;
-    z-index: 3;
-}
+    }
+    #cesped4{
+        position: absolute;
+        height: 20%;
+        right: 50px;
+        bottom: 0;
+        width: 40%;
+        height: 220px;
+        z-index: 3;
+    }
 
 
 /* Menu */
-#menu{
-    position: absolute;
-    height: 6vh;
-    right: 100px;
-    top: 60px;
-    
-}
-
-#interiorMenu{
-    position: absolute;
-    display: none;
-    height: 60vh;
-    width: 70%;
-    background-color: rgb(0, 0, 0);
-    z-index: 4;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-    flex-direction: row;
-    padding-bottom: 80px;
-    
-
-}
-
-#letrasMenu{
-    position: absolute;
-    color: white;
-    text-align: center;
-    font-size: 100px;
-    top: 50px;
-
-}
-
-
-.botonMenu{
-    height: 15%;
-    margin: 50px;
-}
-
-#botonFin{
-    /* transition: all 1s; */
-    margin: 50px;
-}
-
-#botonFin img{
-    height: 108%;
-}
-
-/* vida */
-#vida{
-    position: absolute;
-    height: 51px;
-    right: 200px;
-    top: 60px;
-    
-    overflow: hidden;
-}
-
-#vida img{
-    height: 200px;
-}
-
-/* Personajes */
-#conejoAzul{
-    animation: 3s infinite alternate ease conejoazul;
-
-}
-
-.conejosBox{
-    position: absolute;
-    overflow: hidden;
-    height: 300px;
-    
-}
-
-#conejoAzul img{
-    height: 900px;
-}
-
-#conejoRosa{
-    left: 580px;
-    animation: 3s infinite alternate ease conejoRosa;
-    animation-delay: 3s;
-    bottom: -300px;
-    z-index: 1;
-}
-
-#conejoRosa img{
-    height: 900px;
-}
-
-#conejoNaranja{
-    right: 580px;
-    animation: 3s infinite alternate ease conejoRosa;
-    animation-delay: 5s;
-    bottom: -300px;
-    z-index: 1;
-}
-
-#conejoNaranja img{
-    height: 900px;
-}
-
-#conejoNegro{
-    right: 350px;
-    animation: 3s infinite alternate ease conejoNegro;
-    animation-delay: 7s;
-    bottom: -300px;
-}
-
-#conejoNegro img{
-    height: 900px;
-    margin-top: -600px;
-    
-    
-
-}
-
-#final{
-    position: absolute;
-    background-color: rgb(107, 112, 155);
-    height: 90vh;
-    width: 90%;
-    z-index: 4;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-    flex-direction: row;
-    display: none;
-    
-}
-
-#texto{
-    position: absolute;
-    text-align: center;
-    font-size: 100px;
-    top: 50px;
-}
-
-
-
-#botonFin2 img{
-    height: 120px;
-}
-
-#counterDiv{
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    height: 80px;
-    width: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 50px;
-    right: 400px;
-}
-
-#contadorTiempo{
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    height: 80px;
-    width: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 50px;
-    right: 500px;
-}
-
-#finalBueno{
-    position: absolute;
-    background-color: rgb(236, 237, 245);
-    height: 90vh;
-    width: 90%;
-    z-index: 4;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-    flex-direction: row;
-    display: none;
-    
-}
-
-#puntuacion{
-    position: absolute;
-    text-align: center;
-    font-size: 100px;
-    top: 200px;
-    
-}
-
-#opcion{
-    position: absolute;
-    text-align: center;
-    font-size: 100px;
-    top: 300px;
-}
-
-
-@keyframes nube1{
-    from{
-        top:100px;
-    }
-    to{
-        top: 300px;
-    }
-}
-
-@keyframes nube2{
-    from{
-        top:150px;
+    #menu{
+        position: absolute;
+        height: 6vh;
+        right: 100px;
+        top: 60px;
+        cursor: pointer;
         
     }
-    to{
-        top: 290px;
+
+    #interiorMenu{
+        position: absolute;
+        display: none;
+        height: 60vh;
+        width: 70%;
+        background-color: rgb(0, 0, 0);
+        z-index: 4;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+        flex-direction: row;
+        padding-bottom: 80px;
+        
+
     }
-}
 
+    #letrasMenu{
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 100px;
+        top: 50px;
 
-
-
-
-@keyframes conejoazul{
-    from{
-        bottom: -100px;
     }
-    to{
-        bottom: 250px;
-    }
-}
 
-@keyframes conejoRosa{
-    from{
+
+    .botonMenu{
+        height: 15%;
+        margin: 50px;
+        cursor: pointer;
+    }
+
+    #botonFin{
+        /* transition: all 1s; */
+        margin: 50px;
+    }
+
+    #botonFin img{
+        height: 108%;
+    }
+
+/* vida */
+    #vida{
+        position: absolute;
+        height: 51px;
+        right: 200px;
+        top: 60px;
+        
+        overflow: hidden;
+    }
+
+    #vida img{
+        height: 200px;
+    }
+
+/* Personajes */
+    #conejoAzul{
+        animation: 3s infinite alternate ease conejoazul;
+
+    }
+
+    .conejosBox{
+        position: absolute;
+        overflow: hidden;
+        height: 300px;
+        cursor: pointer;
+        
+    }
+
+    #conejoAzul img{
+        height: 900px;
+    }
+
+    #conejoRosa{
+        left: 580px;
+        animation: 3s infinite alternate ease conejoRosa;
+        animation-delay: 3s;
+        bottom: -300px;
+        z-index: 1;
+    }
+
+    #conejoRosa img{
+        height: 900px;
+    }
+
+    #conejoNaranja{
+        right: 580px;
+        animation: 3s infinite alternate ease conejoRosa;
+        animation-delay: 5s;
+        bottom: -300px;
+        z-index: 1;
+    }
+
+    #conejoNaranja img{
+        height: 900px;
+    }
+
+    #conejoNegro{
+        right: 350px;
+        animation: 3s infinite alternate ease conejoNegro;
+        animation-delay: 7s;
         bottom: -300px;
     }
-    to{
-        bottom: 100px;
-    }
-}
 
-@keyframes conejoNegro{
-    from{
-        bottom: -300px;
+    #conejoNegro img{
+        height: 900px;
+        margin-top: -600px;
+        
+        
+
     }
-    to{
-        bottom: 160px;
+/* Final por vida */
+    #final{
+        position: absolute;
+        background-color: rgb(107, 112, 155);
+        height: 90vh;
+        width: 90%;
+        z-index: 4;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+        flex-direction: row;
+        display: none;
+        
     }
-}
+
+    #texto{
+        position: absolute;
+        text-align: center;
+        font-size: 100px;
+        top: 50px;
+    }
+
+
+
+    #botonFin2 img{
+        height: 120px;
+    }
+/* Contadores */
+    #counterDiv{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50px;
+        right: 400px;
+    }
+
+    #contadorTiempo{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50px;
+        right: 500px;
+    }
+    #puntuacion{
+        position: absolute;
+        text-align: center;
+        font-size: 100px;
+        top: 200px;
+        
+    }
+
+/* Final por tiempo */
+    #finalBueno{
+        position: absolute;
+        background-color: rgb(236, 237, 245);
+        height: 90vh;
+        width: 90%;
+        z-index: 4;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+        flex-direction: row;
+        display: none;
+        
+    }
+
+
+
+    #opcion{
+        position: absolute;
+        text-align: center;
+        font-size: 100px;
+        top: 300px;
+    }
+
+
+/* Animaciones */
+    @keyframes nube1{
+        from{
+            top:100px;
+        }
+        to{
+            top: 300px;
+        }
+    }
+
+    @keyframes nube2{
+        from{
+            top:150px;
+            
+        }
+        to{
+            top: 290px;
+        }
+    }
+
+    @keyframes conejoazul{
+        from{
+            bottom: -100px;
+        }
+        to{
+            bottom: 250px;
+        }
+    }
+
+    @keyframes conejoRosa{
+        from{
+            bottom: -300px;
+        }
+        to{
+            bottom: 100px;
+        }
+    }
+
+    @keyframes conejoNegro{
+        from{
+            bottom: -300px;
+        }
+        to{
+            bottom: 160px;
+        }
+    }
 

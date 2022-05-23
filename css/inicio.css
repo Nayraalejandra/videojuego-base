@@ -9,100 +9,113 @@ body{
    font-family:fantasy;
 
 }
-#fondo{
-    width: 100%;
-    height: 100%;
-}
-#titulo{
-    position: absolute;
-    top: 20px;
-    font-size: 90px;
-    text-shadow: -2px -2px white;
-}
+/* Imagen fondo */
+    #fondo{
+        width: 100%;
+        height: 100%;
+    }
 
+/* Titulo */
+    #titulo{
+        position: absolute;
+        top: 20px;
+        font-size: 90px;
+        text-shadow: -2px -2px white;
+    }
 
-#boton {
-    position: absolute;
-    bottom: 150px;
-    height: 8vh;
-}
-
-#box{
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    top: 300px;
-    height: 400px;
-    width: 430px;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   border-radius: 10px;
-}
-
-
-#askName{
-    text-align: center;
-    position: absolute;
-    height: 40px;
-    width: 90%;
-    top: 150px;
-    border-radius: 5px;
-}
-
-#pregunta{
-    top: 250px;
-    position: absolute;
-    width: 88%;
-    display: flex;
-    align-items: center;
+/* Boton inicio */
+    #boton {
+        position: absolute;
+        bottom: 150px;
+        height: 8vh;
+        cursor: pointer;
+        
+    }
+/* Caja inscripción */
+    #box{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 300px;
+        height: 400px;
+        width: 430px;
+        display: flex;
     justify-content: center;
-    border-radius: 5px;
-    
-}
-
-#saludo{
-    position: absolute;
-    top: 2px;
-   font-size: 40px;
-}
-
-#iconoAlerta{
-    position: absolute;
-    height: 6vh;
-    right: 10px;
-    top: 10px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-}
-
-#alerta{
-    padding-left: 100px;
-    padding-right: 100px;
-    position: absolute;
-    display: none;
-    height: 60vh;
-    width: 70%;
-    background-color: rgb(247, 247, 247);
+    align-items: center;
     flex-direction: column;
-    padding-bottom: 80px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 40px;
-}
+    border-radius: 10px;
+    }
 
-#salir{
-    position: absolute;
-    width: 50px;
-    right: 10px;
-    top: 10px;
-    padding: 5px;
-    border-style: solid;
-    border-color: rgb(255, 0, 0);
-    border-radius: 5px;
-    color: rgb(255, 0, 0);
-}
+
+    #askName{
+        text-align: center;
+        position: absolute;
+        height: 40px;
+        width: 90%;
+        top: 150px;
+        border-radius: 5px;
+    }
+
+    #pregunta{
+        top: 250px;
+        position: absolute;
+        width: 88%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        
+    }
+
+    #saludo{
+        position: absolute;
+        top: 2px;
+    font-size: 40px;
+    }
+
+    #iconoAlerta{
+        position: absolute;
+        height: 6vh;
+        right: 10px;
+        top: 10px;
+        padding: 5px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+/* Caja Alerta */
+    #alerta{
+        
+        padding-left: 100px;
+        padding-right: 100px;
+        position: absolute;
+        display: none;
+        height: 60vh;
+        width: 70%;
+        background-color: rgb(247, 247, 247);
+        flex-direction: column;
+        padding-bottom: 80px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        
+    }
+
+
+    #salir{
+        position: absolute;
+        width: 50px;
+        right: 10px;
+        top: 10px;
+        padding: 5px;
+        border-style: solid;
+        border-color: rgb(255, 0, 0);
+        border-radius: 5px;
+        color: rgb(255, 0, 0);
+        cursor: pointer;
+    }
+
 
