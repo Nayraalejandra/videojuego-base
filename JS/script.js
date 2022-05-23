@@ -10,7 +10,6 @@ let time = 60;
     function abrirMenu(){
         if(menuAbierto == false) {
             $("#interiorMenu").css("display","flex")
-            $("#body").stop(true)
                 menuAbierto =true
         }else{
             $("#interiorMenu").css("display","none")
@@ -45,7 +44,7 @@ let time = 60;
 
     function matarAzul (){
         $("#conejoAzul Img").css("margin-top","-300px");
-        setTimeout(revivirAzul,4000)
+        setTimeout(revivirAzul,3500)
         counter++;
         $("#counter").text(counter);
     }
@@ -102,7 +101,8 @@ let time = 60;
 
 
     function finTiempo(){
-        $("#finalBueno").css("display","flex")
+        $("#finalBueno").css("display","flex");
+        $("#puntuacion").text("¡Has conseguido" + $(".puntos").text() + "puntos!")
     }
 
     setTimeout(finTiempo,60000)

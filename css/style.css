@@ -246,7 +246,7 @@ body{
 
 #finalBueno{
     position: absolute;
-    background-color: rgb(107, 112, 155);
+    background-color: rgb(236, 237, 245);
     height: 90vh;
     width: 90%;
     z-index: 4;
@@ -259,6 +259,20 @@ body{
     
 }
 
+#puntuacion{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    top: 200px;
+    
+}
+
+#opcion{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    top: 300px;
+}
 
 
 @keyframes nube1{
