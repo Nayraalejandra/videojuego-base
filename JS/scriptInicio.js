@@ -1,4 +1,7 @@
 
+
+
+
 $("#boton").click(function() {
     if (!$("#askName").val()) {
         alert("Escribe un nombre");
@@ -15,3 +18,15 @@ $("#boton").click(function() {
 
 })
 
+
+
+$("#iconoAlerta").click(function (){
+        $("#alerta").css("display","flex")
+           
+    
+})
+
+$("#salir").click(function (){
+    $("#alerta").css("display","none")
+         
+})

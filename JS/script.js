@@ -16,7 +16,7 @@ let time = 60;
                 menuAbierto = false;
         }
     }
-    // $("#interiorMenu").css("transition", "2s")
+    
         $("#menu").click(abrirMenu)
 
     function teclaPulsada(e){
@@ -102,7 +102,7 @@ let time = 60;
 
     function finTiempo(){
         $("#finalBueno").css("display","flex");
-        $("#puntuacion").text("¡Has conseguido" + $(".puntos").text() + "puntos!")
+        $("#puntuacion").text("¡Has conseguido " + $(".puntos").text() + " puntos!")
     }
 
     setTimeout(finTiempo,60000)
